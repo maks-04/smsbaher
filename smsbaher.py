@@ -1,17 +1,18 @@
 import requests, random, datetime, sys, time, argparse, os
 from colorama import Fore, Back, Style
 
-banner = """
+banner = """ \x1b[31m
  ____________________________________________________
 |                                                    |
 | [--] Name: SMSbaher                                |
 |                                                    |
 | [--] Доступно сервисов: 51                         |
 |                                                    |
-| [--] Version: 0.1.0    
-|
-| [--] СОЗДАТЕЛЬ: ВК @antiaskin
+| [--] Version: 0.1.0                                |
+|                                                    |
+| [--] СОЗДАТЕЛЬ: ВК @antiaskin                      |
 |____________________________________________________|
+\x1b[0m
 """
 
 print(banner)
