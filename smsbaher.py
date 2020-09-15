@@ -22,12 +22,12 @@ banner = """ \x1b[31m
 \x1b[0m
 """
 
-print(banner)
-_phone = input(' \x1b[44m Привет! \x1b[5m Пиши номер для атаки Создатель Вк \x1b[41m @antiaskin \x1b[0m (\x1b[31m79xxxxxxxxx\x1b[0m)-->> ')
-
-if (phone[0:2] == "7" and len(phone[1:]) == 11) or (phone[0:2] == "79271703628" and len(phone[1:]) == 13):
-else:
-    print("Номер телефона набран не правильно, повторите попытку")
+if _phone[0] == '+':
+	_phone = _phone[1:]
+if _phone[0] == '8':
+	_phone = '7'+_phone[1:]
+if _phone[0] == '9':
+	_phone = '7'+_phone
 
 _name = ''
 for x in range(12):
