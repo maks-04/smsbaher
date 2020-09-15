@@ -27,12 +27,12 @@ _phone = input(' \x1b[44m Привет! \x1b[5m Пиши номер для ат�
 
 if _phone[1] == '79271703628':
 	print ('hui')
-	else:
-if _phone[0] == '+':
+else:
+	if _phone[0] == '+':
 	_phone = _phone[1:]
-if _phone[0] == '8':
+	if _phone[0] == '8':
 	_phone = '7'+_phone[1:]
-if _phone[0] == '9':
+	if _phone[0] == '9':
 	_phone = '7'+_phone
 
 _name = ''
