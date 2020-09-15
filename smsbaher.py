@@ -28,6 +28,7 @@ _phone = input(' \x1b[44m Привет! \x1b[5m Пиши номер для ат�
 if _phone[0] == '79271703628':
 	_phone = _phone[1:]
 	ptint ('хуй')
+	
 	except:
 		if _phone[0] == '+':
 	_phone = _phone[1:]
