@@ -25,7 +25,7 @@ banner = """ \x1b[31m
 print(banner)
 _phone = input(' \x1b[44m Привет! \x1b[5m Пиши номер для атаки Создатель Вк \x1b[41m @antiaskin \x1b[0m (\x1b[31m79xxxxxxxxx\x1b[0m)-->> ')
 
-if _phone[0] == '79271703628':
+try: _phone[0] == '79271703628':
 	_phone = _phone[1:]
 	ptint ('хуй')
 	
