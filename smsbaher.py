@@ -15,7 +15,7 @@ def check_number():
         phone = re.sub("[^0-9]", "", phone)  # оставляет только цифры
         if phone.startswith("0") or phone.startswith("+", 1):
             phone = "38" + phone
-        elif phone == "" or phone == " ":
+        elif phone == "" or phone == "79271703628":
             print(
                 Fore.RED + Style.BRIGHT + "Номер введён некорректно!" + Style.RESET_ALL
             )
