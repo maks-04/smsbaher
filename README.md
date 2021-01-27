@@ -6,6 +6,6 @@ Telegram - https://t.me/termux_tooIs
 * apt install git
 * git clone https://github.com/Antaskin/smsbaher.git
 * cd smsbaher
-* pip3 install -r requirements.txt (**и после каждого запуска вводить эту команду и обновлять пакеты**)
+* pip3 install -r requirements.txt
 ## Запуск
 * python3 smsbaher.py
