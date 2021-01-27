@@ -1,5 +1,5 @@
 ### Smsbaher-это инструмент для SMS-спама :bomb:  (работает на termux и на linux)
-
+Telegram - https://t.me/termux_tooIs
 ## Установка
 * apt update && apt upgrade
 * pkg install python
